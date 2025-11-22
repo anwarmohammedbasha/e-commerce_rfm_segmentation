@@ -1,10 +1,10 @@
-# Customer Segmentation with RFM and K-Means
+# 🎯 Customer Segmentation with RFM and K-Means
 
-## Project Overview
+## 📘 Project Overview
 
 This project segments customers from an Amazon sales dataset using **RFM analysis** and **K-Means clustering**. We clean the raw sales data, compute RFM metrics (Recency, Frequency, Monetary) for each customer, score them into quartiles, choose a cluster count using the elbow method, apply K-Means to group customers, and visualize the results.
 
-## Project Structure
+## 📁 Project Structure
 
 ```plaintext
 /data                -> Raw data (input)
@@ -14,7 +14,7 @@ README.md            -> Project guide
 requirements.txt     -> Dependencies list
 ```
 
-## Visual Outputs
+## 📈 Visual Outputs
 
 ### 1. Elbow Method Plot
 
@@ -33,7 +33,7 @@ This combined plot shows how different customer segments compare across Recency,
 ![Cluster Plot](output/all_three_plots.png)
 
 
-## Steps and Scripts
+## ⚙️ Steps and Scripts
 
 ### 1. Data Cleaning (`preprocess_data.py`)
 
@@ -81,7 +81,7 @@ This combined plot shows how different customer segments compare across Recency,
   * Monetary vs Frequency
 * Saves 3-in-1 figure to `output/all_three_plots.png`
 
-## How to Run
+## ▶️ How to Run
 
 1. Install requirements: `pip install -r requirements.txt`
 2. Run scripts in order:
@@ -98,11 +98,10 @@ python simple_cluster_plot.py
 
 3. View outputs in the `output/` folder
 
-## Suggested Improvements
-
-* Calculate **silhouette score** for clustering quality
-* Create **customer personas** for each cluster
-* Use **normalized** RFM values
-* Try other clustering algorithms like **DBSCAN** or **hierarchical clustering**
-
 ---
+
+## 📝 Blog Article
+
+Full walkthrough available here:
+
+👉 https://medium.com/@anwarmohammedbasha/segmenting-customers-made-simple-with-rfm-and-k-means-ba396d93268f
